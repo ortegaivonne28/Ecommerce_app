@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ScrollView-->
+<com.example.ivonneortega.ecommerceapp.MainActivity.LockableScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main"
+    android:id="@+id/scroll_view_main_activity"
+    tools:context="com.example.ivonneortega.ecommerceapp.MainActivity.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff"
+            android:id="@+id/frameLayout"
+            android:padding="5dp">
+
+
+
+            <android.support.v7.widget.SearchView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:inputType="textShortMessage"
+                android:imeOptions="actionDone"
+                android:hint="@string/search_view"
+                android:iconifiedByDefault="false"
+                android:id="@+id/search_editText"
+                android:background="@android:color/transparent"/>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/products"
+            android:layout_below="@id/frameLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_list_black_24dp"
+            android:id="@+id/layoutManager"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/transparent"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/frameLayout"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/layoutManager"
+            android:layout_below="@id/frameLayout"
+            android:src="@mipmap/ic_sort_black_24dp"
+            android:id="@+id/sort_by"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="10dp"/>
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/sort_by"-->
+            <!--android:layout_below="@id/frameLayout"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:id="@+id/sort_by"-->
+            <!--android:nextFocusUp="@id/sort_by"-->
+            <!--android:nextFocusLeft="@id/sort_by"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:textStyle="bold"/>-->
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_below="@id/sort_by"
+            android:layout_width="match_parent"
+            android:id="@+id/recycler_view_main_activity"
+            android:layout_height="match_parent"/>
+
+
+    </RelativeLayout>
+
+
+</com.example.ivonneortega.ecommerceapp.MainActivity.LockableScrollView>
+<!--</ScrollView>-->

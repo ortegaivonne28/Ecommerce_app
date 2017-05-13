@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/main_activity_rootLayout"
+              android:orientation="horizontal"
+              android:background="#ffff"
+             android:paddingTop="10dp"
+    android:layout_marginBottom="1dp">
+
+    <ImageView
+        android:id="@+id/item_image_main_activity"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:padding="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#ffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/brand_main_activity"
+            android:text="BRAND"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#123"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/show_title_main_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Shoe1"/>
+
+        <TextView
+            android:id="@+id/price_main_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryCheckoutPage"
+            android:layout_marginTop="5dp"
+            android:text="Price"/>
+
+    </LinearLayout>
+
+</LinearLayout>

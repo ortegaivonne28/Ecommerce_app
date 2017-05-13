@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#67b0d6</color>
+    <color name="colorPrimaryDark">#67b0d6</color>
+    <color name="colorPrimaryLight">#8eacbc</color>
+    <color name="colorAccent">#f6846a</color>
+
+    <color name="colorPrimaryProductPage">#38474f</color>
+    <color name="colorPrimaryDarkProductPage">#2d3a40</color>
+    <color name="colorAuxProductPage">#f6846a</color>
+    <color name="colorSelectedSizeProductPage">#67b0d6</color>
+
+    <color name="colorPrimaryCheckoutPage">#f6846a</color>
+    <color name="colorPrimaryDarkCheckoutPage">#c86b56</color>
+    <color name="colorCheckoutButton">#84b262</color>
+
+    <color name="grey">#9E9E9E</color>
+
+    <color name="colorSecondary">#ffcc80</color>
+    <color name="colorSecondaryLight">#ffffb0</color>
+    <color name="colorSecondaryDark">#ca9b52</color>
+
+
+
+</resources>

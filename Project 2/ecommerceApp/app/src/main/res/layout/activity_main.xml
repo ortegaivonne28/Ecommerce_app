@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="#eee"
+    tools:context="com.example.ivonneortega.ecommerceapp.MainActivity.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:elevation="0dp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <include layout="@layout/custom_toolbar"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <include layout="@layout/content_main"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@android:color/black"
+        android:id="@+id/background_image_view_long_press"
+        android:layout_centerInParent="true"
+        android:alpha="0.6"/>
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="320dp"
+        android:id="@+id/image_view_long_press"
+        android:layout_marginTop="20dp"
+        android:elevation="20dp"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:background="#fff"/>
+
+
+</android.support.design.widget.CoordinatorLayout>
