@@ -27,6 +27,5 @@ Each activity has a fragment that is used for master detail flow when using tabl
 ![image](/screenshots/ecommerceApp-2.png)
 ![image](/screenshots/ecommerceApp-3.png)
 
-![image](/screenshots/ecommerceApp_Video.gif)
 
 
