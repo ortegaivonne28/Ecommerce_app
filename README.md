@@ -4,7 +4,7 @@
 
 This app was built as a project for **General Assembly’s Android development Bootcamp**.
 
-##Project Details
+## Project Details
 
 The list of shoes were stored in a custom database, including name, brand, mode, type of shoe, id, quantity and price. The shoes table also included two columns named isCheck and isWishlist, if this columns were 0 it meant the show wasn't in the cart or in the wishlist.
 
