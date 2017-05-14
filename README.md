@@ -18,4 +18,7 @@ User can remove from the cart or move to wishlist from the cart screen. A user c
 ![image](/screenshots/ecommerceApp-1.png)
 ![image](/screenshots/ecommerceApp-2.png)
 ![image](/screenshots/ecommerceApp-3.png)
-![image](/screenshots/ecommerceApp_Video.gif | width=200)
+
+![image](/screenshots/ecommerceApp_Video.gif)
+
+
