@@ -23,9 +23,9 @@ Each activity has a fragment that is used for master detail flow when using tabl
 
 ##### Skills/languages/tools: Java, Android SDK, SQLite.
 
-![image](/screenshots/ecommerceApp-1.png)
-![image](/screenshots/ecommerceApp-2.png)
-![image](/screenshots/ecommerceApp-3.png)
+![image](/screenshots/ecommerceApp-1.jpg)
+![image](/screenshots/ecommerceApp-2.jpg)
+![image](/screenshots/ecommerceApp-3.jpg)
 
 
 
